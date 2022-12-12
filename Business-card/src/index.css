@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #1C1C1C;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  color: white;
+}
+
+h5 {
+  color: #F3BF99;
+}
+
+#root {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #23252C;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  margin: 0;
+  background-color: #1A1B21;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.Info {
+  text-align: center;
+}
+
+#textInfo,
+h2,
+h5,
+h6 {
+  margin: 10px 0 10px 0;
+}
+
+#photo {
+  height: 290px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+span {
+  padding-left: 5px;
+ 
+}
+
+#btn-linkedin, #btn-email{
+  display: inline-block;
+  width: 115px;
+  height: 34px;
+  padding: 5px 7px 5px 7px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 5px;
+}
+#btn-linkedin {
+  background: #5093E2;
+  border: #5093E2;
+  color: white;
+}
+#btn-email{
+  background: white;
+  border: white;
+  color: black;
+}
+
+
+.About,
+.Interests {
+  padding-left: 35px;
+  color: white;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+
+}
